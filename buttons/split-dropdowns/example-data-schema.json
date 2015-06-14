@@ -1,0 +1,77 @@
+{
+  "style": {
+    "label": "Style",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Primary",
+        "value": "primary"
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Info",
+        "value": "info"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Danger",
+        "value": "danger"
+      },
+      {
+        "label": "Link",
+        "value": "link"
+      }
+    ]
+  },
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      },
+      {
+        "label": "Extra small",
+        "value": "xsmall"
+      }
+    ]
+  },
+  "openDirection": {
+    "label": "Open direction",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Down",
+        "value": ""
+      },
+      {
+        "label": "Up",
+        "value": " dropup"
+      }
+    ]
+  },
+  "aligment": {
+    "label": "Align menu to right of button",
+    "type": "optional-string",
+    "value": " pullRight"
+  }
+}
