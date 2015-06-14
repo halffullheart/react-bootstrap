@@ -1,0 +1,73 @@
+{
+  "style": {
+    "label": "Style",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Primary",
+        "value": "primary"
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Info",
+        "value": "info"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Danger",
+        "value": "danger"
+      },
+      {
+        "label": "Link",
+        "value": "link"
+      }
+    ]
+  },
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      },
+      {
+        "label": "Extra small",
+        "value": "xsmall"
+      }
+    ]
+  },
+  "disabled": {
+    "label": "Disabled",
+    "type": "optional-string",
+    "value": " disabled"
+  },
+  "active": {
+    "label": "Active",
+    "type": "optional-string",
+    "value": " active"
+  },
+  "block": {
+    "label": "Block level",
+    "type": "optional-string",
+    "value": " block"
+  }
+}
