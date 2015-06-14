@@ -1,0 +1,24 @@
+{
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      },
+      {
+        "label": "Extra small",
+        "value": "xsmall"
+      }
+    ]
+  }
+}
