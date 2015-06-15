@@ -1,0 +1,34 @@
+{
+  "animate": {
+    "label": "Animate",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "{true}"
+      },
+      {
+        "label": "No",
+        "value": "{false}"
+      }
+    ]
+  },
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      }
+    ]
+  }
+}
