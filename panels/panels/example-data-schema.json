@@ -1,0 +1,28 @@
+{
+  "panelStyle": {
+    "label": "Contextual panel style",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Primary",
+        "value": "primary"
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Info",
+        "value": "info"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Danger",
+        "value": "danger"
+      }
+    ]
+  }
+}
