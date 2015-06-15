@@ -1,4 +1,4 @@
-## Accordions
+### Accordions
 
 `<Accordion />` aliases `<PanelGroup accordion />`.
 
