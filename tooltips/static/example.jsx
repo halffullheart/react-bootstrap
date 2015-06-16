@@ -1,31 +1,9 @@
-const tooltips = (
+const tooltip = (
   <div style={{ height: 50 }}>
-
-    <div style={{width: '18%', position: 'relative', display: 'inline-block', margin: '10px 20px'}}>
-      <Tooltip placement="left">
-        Tooltip on left
-      </Tooltip>
-    </div>
-
-    <div style={{width: '18%', position: 'relative', display: 'inline-block', margin: '10px 20px'}}>
-      <Tooltip placement="top">
-        Tooltip on top
-      </Tooltip>
-    </div>
-
-    <div style={{width: '18%', position: 'relative', display: 'inline-block', margin: '10px 20px'}}>
-      <Tooltip placement="bottom">
-        Tooltip on bottom
-      </Tooltip>
-    </div>
-
-    <div style={{width: '18%', position: 'relative', display: 'inline-block', margin: '10px 20px'}}>
-      <Tooltip placement="right">
-        Tooltip on bottom
-      </Tooltip>
-    </div>
-
+    <Tooltip placement="{{placement}}" positionLeft={150} positionTop={50}>
+      <strong>Holy guacamole!</strong> Check this info.
+    </Tooltip>
   </div>
 );
 
-React.render(tooltips, document.body);
+React.render(tooltip, document.body);
