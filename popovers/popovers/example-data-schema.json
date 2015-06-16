@@ -1,0 +1,47 @@
+{
+  "placement": {
+    "label": "Placement",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Left",
+        "value": "left"
+      },
+      {
+        "label": "Top",
+        "value": "top"
+      },
+      {
+        "label": "Bottom",
+        "value": "bottom"
+      },
+      {
+        "label": "Right",
+        "value": "right"
+      }
+    ]
+  },
+  "trigger": {
+    "label": "Trigger",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Click",
+        "value": "click"
+      },
+      {
+        "label": "Hover",
+        "value": "hover"
+      },
+      {
+        "label": "Focus",
+        "value": "focus"
+      }
+    ]
+  },
+  "rootClose": {
+    "label": "Root close (use with click trigger)",
+    "type": "optional-string",
+    "value": " rootClose={true}"
+  }
+}
