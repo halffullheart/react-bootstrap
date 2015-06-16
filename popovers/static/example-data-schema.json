@@ -1,0 +1,24 @@
+{
+  "placement": {
+    "label": "Placement",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Left",
+        "value": "left"
+      },
+      {
+        "label": "Top",
+        "value": "top"
+      },
+      {
+        "label": "Right",
+        "value": "right"
+      },
+      {
+        "label": "Bottom",
+        "value": "bottom"
+      }
+    ]
+  }
+}
