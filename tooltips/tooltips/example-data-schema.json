@@ -1,6 +1,6 @@
 {
   "placement": {
-    "label": "Tooltip placement",
+    "label": "Placement",
     "type": "enum",
     "options": [
       {
