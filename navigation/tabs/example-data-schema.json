@@ -1,0 +1,26 @@
+{
+  "style": {
+    "label": "Tab style",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Tabs",
+        "value": "tabs"
+      },
+      {
+        "label": "Pills",
+        "value": "pills"
+      }
+    ]
+  },
+  "stacked": {
+    "label": "Stacked",
+    "type": "optional-string",
+    "value": " stacked"
+  },
+  "justified": {
+    "label": "Justified",
+    "type": "optional-string",
+    "value": " justified"
+  }
+}
