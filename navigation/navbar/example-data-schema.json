@@ -1,0 +1,51 @@
+{
+  "brand": {
+    "label": "Brand",
+    "type": "enum",
+    "options": [
+      {
+        "label": "String",
+        "value": "'Brand AI'"
+      },
+      {
+        "label": "Anchor",
+        "value": "{<a href='#'>Brand AI</a>}"
+      }
+    ] 
+  },
+  "fixedBottom": {
+    "label": "Fixed bottom placement",
+    "type": "optional-string",
+    "value": " fixedBottom"
+  },
+  "fixedTop": {
+    "label": "Fixed top placement",
+    "type": "optional-string",
+    "value": " fixedTop"
+  },
+  "staticTop": {
+    "label": "Static top placement",
+    "type": "optional-string",
+    "value": " staticTop"
+  },
+  "fluid": {
+    "label": "Fluid",
+    "type": "optional-string",
+    "value": " fluid"
+  },
+  "invserse": {
+    "label": "Invserse colors",
+    "type": "optional-string",
+    "value": " inverse"
+  },
+  "rightLinks": {
+    "label": "Right align links",
+    "type": "optional-string",
+    "value": " right"
+  },
+  "rightMenu": {
+    "label": "Right align menu",
+    "type": "optional-string",
+    "value": " right"
+  }
+}
