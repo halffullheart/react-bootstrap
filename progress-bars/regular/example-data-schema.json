@@ -1,0 +1,55 @@
+{
+  "style": {
+    "label": "Context",
+    "type": "enum",
+    "options": [
+      {
+        "label": "None",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Info",
+        "value": "info"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Danger",
+        "value": "danger"
+      }
+    ]
+  },
+  "percent": {
+    "label": "%",
+    "type": "number",
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "label": {
+    "label": "Label",
+    "type": "optional-string",
+    "value": " label='%(percent)s%'"
+  },
+  "srOnly": {
+    "label": "Screen reader only label",
+    "type": "optional-string",
+    "value": " srOnly"
+  },
+  "striped": {
+    "label": "Striped",
+    "type": "optional-string",
+    "value": " striped"
+  },
+  "active": {
+    "label": "Animated",
+    "type": "optional-string",
+    "value": " active"
+  }
+}
