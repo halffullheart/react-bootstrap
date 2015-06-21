@@ -1,0 +1,7 @@
+{
+  "animate": {
+    "label": "Do not animate",
+    "type": "optional-string",
+    "value": " animation={false}"
+  }
+}
