@@ -31,9 +31,10 @@
     "label": "Align previous button to left side of page",
     "type": "optional-string",
     "value": " previous"
-  }
+  },
   "alignNextRight": {
     "label": "Align next button to right side of page",
     "type": "optional-string",
     "value": " next"
+  }
 }
