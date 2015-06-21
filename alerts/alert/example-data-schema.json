@@ -25,5 +25,10 @@
     "label": "Dismissable",
     "type": "optional-string",
     "value": " onDismiss={this.handleAlertDismiss}"
+  },
+  "automaticallyDismiss": {
+    "label": "Dismissable",
+    "type": "optional-string",
+    "value": " dismissAfter={2000}"
   }
 }
