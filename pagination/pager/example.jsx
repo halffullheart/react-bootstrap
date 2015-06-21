@@ -1,7 +1,7 @@
 const pager = (
   <Pager{{align}}>
-    <PageItem{{alignPreviosLeft}} href='#'>{{previousText}}</PageItem>
-    <PageItem{{alignNextRight}} href='#'>{{nextText}}</PageItem>
+    <PageItem{{disabled}}{{alignPreviosLeft}} href='#'>{{previousText}}</PageItem>
+    <PageItem{{disabled}}{{alignNextRight}} href='#'>{{nextText}}</PageItem>
   </Pager>
 );
 

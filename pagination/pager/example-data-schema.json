@@ -36,5 +36,10 @@
     "label": "Align next button to right side of page",
     "type": "optional-string",
     "value": " next"
+  },
+  "disabled": {
+    "label": "Disabled",
+    "type": "optional-string",
+    "value": " disabled"
   }
 }
