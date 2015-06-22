@@ -1,0 +1,62 @@
+{
+  "heading": {
+    "label": "Heading level",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Heading 1",
+        "value": "h1"
+      },
+      {
+        "label": "Heading 2",
+        "value": "h2"
+      },
+      {
+        "label": "Heading 3",
+        "value": "h3"
+      },
+      {
+        "label": "Heading 4",
+        "value": "h4"
+      },
+      {
+        "label": "Heading 5",
+        "value": "h5"
+      },
+      {
+        "label": "Heading 6",
+        "value": "h6"
+      }
+    ]
+  },
+  "style": {
+    "label": "Label style",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Default",
+        "value": "default"
+      },
+      {
+        "label": "Primary",
+        "value": "primary"
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Info",
+        "value": "info"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Danger",
+        "value": "danger"
+      }
+    ]
+  }
+}
