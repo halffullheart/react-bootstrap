@@ -1,0 +1,53 @@
+{
+  "context": {
+    "label": "Contextual item style",
+    "type": "enum",
+    "options": [
+      {
+        "label": "None",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Info",
+        "value": "info"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Danger",
+        "value": "danger"
+      }
+    ]
+  },
+  "linked": {
+    "label": "Linked items",
+    "type": "optional-string",
+    "value": " href='#'"
+  },
+  "badge": {
+    "label": "Badge",
+    "type": "optional-string",
+    "value": " <Badge>42</Badge>"
+  },
+  "active": {
+    "label": "Active",
+    "type": "optional-string",
+    "value": " active"
+  },
+  "disabled": {
+    "label": "Disabled",
+    "type": "optional-string",
+    "value": " disabled"
+  },
+  "heading": {
+    "label": "Heading",
+    "type": "optional-string",
+    "value": " heading='Heading'"
+  }
+}
