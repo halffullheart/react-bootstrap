@@ -1,0 +1,20 @@
+{
+  "size": {
+    "label": "Well size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      }
+    ]
+  }
+}
