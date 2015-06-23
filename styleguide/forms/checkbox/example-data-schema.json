@@ -1,0 +1,39 @@
+{
+  "validation": {
+    "label": "Validation",
+    "type": "enum",
+    "options": [
+      {
+        "label": "None",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Error",
+        "value": "error"
+      }
+    ]
+  },
+  "readOnly": {
+    "label": "Read only",
+    "type": "optional-string",
+    "value": " readOnly"
+  },
+  "disabled": {
+    "label": "Disabled",
+    "type": "optional-string",
+    "value": " disabled"
+  },
+  "hasFeedback": {
+    "label": "Show icon in validation states",
+    "type": "optional-string",
+    "value": " hasFeedback"
+  }
+}
