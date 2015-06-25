@@ -1,0 +1,77 @@
+{
+  "validation": {
+    "label": "Validation",
+    "type": "enum",
+    "options": [
+      {
+        "label": "None",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Error",
+        "value": "error"
+      }
+    ]
+  },
+  "inputType": {
+    "label": "Type",
+    "type": "enum",
+    "options": [
+      "text",
+      "password",
+      "datetime",
+      "datetime-local",
+      "date",
+      "month",
+      "time",
+      "week",
+      "number",
+      "email",
+      "url",
+      "search",
+      "tel",
+      "color"
+    ]
+  },
+  "readOnly": {
+    "label": "Read only",
+    "type": "optional-string",
+    "value": " readOnly"
+  },
+  "disabled": {
+    "label": "Disabled",
+    "type": "optional-string",
+    "value": " disabled"
+  },
+  "hasFeedback": {
+    "label": "Show icon in validation states",
+    "type": "optional-string",
+    "value": " hasFeedback"
+  },
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      }
+    ]
+  }
+}
