@@ -1,0 +1,52 @@
+{
+  "validation": {
+    "label": "Validation",
+    "type": "enum",
+    "options": [
+      {
+        "label": "None",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Error",
+        "value": "error"
+      }
+    ]
+  },
+  "multiple": {
+    "label": "Select multiple options",
+    "type": "optional-string",
+    "value": "multiple "
+  },
+  "disabled": {
+    "label": "Disabled",
+    "type": "optional-string",
+    "value": "disabled "
+  },
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      }
+    ]
+  }
+}
