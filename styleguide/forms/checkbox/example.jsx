@@ -1,7 +1,7 @@
 const checkbox = (
   <form>
-    <Input type='checkbox' bsStyle='{{validation}}' label='Cream' checked{{readOnly}}{{hasFeedback}} />
-    <Input type='checkbox' bsStyle='{{validation}}' label='Sugar'{{readOnly}}{{hasFeedback}} />
+    <Input type='checkbox' bsSize='{{size}}' bsStyle='{{validation}}' label='Cream' checked{{readOnly}}{{hasFeedback}} />
+    <Input type='checkbox' bsSize='{{size}}' bsStyle='{{validation}}' label='Sugar'{{readOnly}}{{hasFeedback}} />
   </form>
 );
 

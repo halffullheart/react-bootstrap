@@ -35,5 +35,23 @@
     "label": "Show icon in validation states",
     "type": "optional-string",
     "value": " hasFeedback"
+  },
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      }
+    ]
   }
 }
