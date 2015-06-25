@@ -1,0 +1,47 @@
+{
+  "validation": {
+    "label": "Validation",
+    "type": "enum",
+    "options": [
+      {
+        "label": "None",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Error",
+        "value": "error"
+      }
+    ]
+  },
+  "readOnly": {
+    "label": "Read only",
+    "type": "optional-string",
+    "value": " readOnly"
+  },
+  "size": {
+    "label": "Size",
+    "type": "enum",
+    "options": [
+      {
+        "label": "Large",
+        "value": "large"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "small"
+      }
+    ]
+  }
+}
