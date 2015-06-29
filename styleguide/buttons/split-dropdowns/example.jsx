@@ -1,5 +1,5 @@
 const button = (
-  <SplitButton bsStyle="{{style}}"{{openDirection}}{{alignment}}>
+  <SplitButton bsStyle="[[style]]"[[openDirection]][[alignment]]>
     <MenuItem eventKey='1'>Action</MenuItem>
     <MenuItem eventKey='2'>Another action</MenuItem>
     <MenuItem eventKey='3' active={true}>Active Item</MenuItem>

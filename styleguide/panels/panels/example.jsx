@@ -31,7 +31,7 @@ const panels = (
 
   
   {/* Contexual panel */}
-  <Panel header={title} bsStyle='{{panelStyle}}'>
+  <Panel header={title} bsStyle='[[panelStyle]]'>
     Panel content
   </Panel>
 

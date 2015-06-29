@@ -1,6 +1,6 @@
 const select = (
   <form>
-    <Input type='select' label='Choose a color' bsStyle='{{validation}}' bsSize='{{size}}'{{multiple}}{{disabled}}>
+    <Input type='select' label='Choose a color' bsStyle='[[validation]]' bsSize='[[size]]'[[multiple]][[disabled]]>
       <option>Red</option>
       <option>Orange</option>
       <option>Yellow</option>

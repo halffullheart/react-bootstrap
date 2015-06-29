@@ -8,7 +8,7 @@ const AlertDismissable = React.createClass({
   render() {
     if (this.state.alertVisible) {
       return (
-        <Alert bsStyle='{{style}}' {{dismissable}}{{automaticallyDismiss}}>
+        <Alert bsStyle='[[style]]' [[dismissable]][[automaticallyDismiss]]>
           <strong>Alert!</strong> Here is some explanatory text.
         </Alert>
       );
