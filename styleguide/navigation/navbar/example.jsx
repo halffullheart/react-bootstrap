@@ -1,10 +1,10 @@
 const navbar = (
-  <Navbar brand=[[brand]][[fixedTop]][[fixedBottom]][[staticTop]][[fluid]][[inverse]]>
-    <Nav[[rightLinks]]>
+  <Navbar brand=[[brand]] [[navbarAttrs]]>
+    <Nav [[rightLinks]]>
       <NavItem eventKey={1} href='#'>Link</NavItem>
       <NavItem eventKey={2} href='#'>Link</NavItem>
     </Nav>
-    <Nav[[rightMenu]]>
+    <Nav [[rightMenu]]>
       <DropdownButton eventKey={3} title='Dropdown'>
         <MenuItem eventKey='1'>Action</MenuItem>
         <MenuItem eventKey='2'>Another action</MenuItem>
