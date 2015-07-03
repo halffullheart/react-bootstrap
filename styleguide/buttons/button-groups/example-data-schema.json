@@ -1,24 +1,28 @@
 {
-  "size": {
-    "label": "Size",
-    "type": "enum",
-    "options": [
+  "groupAttrs": {
+    "type": "attribute",
+    "key": "bsSize",
+    "quote": "braces",
+    "value": {
       {
-        "label": "Large",
-        "value": "large"
-      },
-      {
-        "label": "Default",
-        "value": ""
-      },
-      {
-        "label": "Small",
-        "value": "small"
-      },
-      {
-        "label": "Extra small",
-        "value": "xsmall"
+        "label": "Size",
+        "type": "select",
+        "optional": true,
+        "values": [
+          {
+            "label": "Large",
+            "value": "large"
+          },
+          {
+            "label": "Small",
+            "value": "small"
+          },
+          {
+            "label": "Extra small",
+            "value": "xsmall"
+          }
+        ]
       }
-    ]
+    }
   }
 }

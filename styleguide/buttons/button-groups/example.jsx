@@ -1,5 +1,5 @@
 const buttonGroup = (
-  <ButtonGroup bsSize='[[size]]'>
+  <ButtonGroup [[groupAttrs]]>
     <Button>Left</Button>
     <Button>Middle</Button>
     <Button>Right</Button>
