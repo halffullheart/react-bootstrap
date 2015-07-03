@@ -1,6 +1,6 @@
 {
   "heading": {
-    "label": "Heading level",
+    "label": "Heading Level",
     "type": "enum",
     "options": [
       {
@@ -29,34 +29,35 @@
       }
     ]
   },
-  "style": {
-    "label": "Label style",
-    "type": "enum",
-    "options": [
-      {
-        "label": "Default",
-        "value": "default"
-      },
-      {
-        "label": "Primary",
-        "value": "primary"
-      },
-      {
-        "label": "Success",
-        "value": "success"
-      },
-      {
-        "label": "Info",
-        "value": "info"
-      },
-      {
-        "label": "Warning",
-        "value": "warning"
-      },
-      {
-        "label": "Danger",
-        "value": "danger"
-      }
-    ]
+  "labelStyle": {
+    "type": "attribute",
+    "key": "bsStyle",
+    "value": {
+      "label": "Label Style",
+      "type": "select",
+      "optional": true,
+      "values": [
+        {
+          "label": "Primary",
+          "value": "primary"
+        },
+        {
+          "label": "Success",
+          "value": "success"
+        },
+        {
+          "label": "Info",
+          "value": "info"
+        },
+        {
+          "label": "Warning",
+          "value": "warning"
+        },
+        {
+          "label": "Danger",
+          "value": "danger"
+        }
+      ]
+    }
   }
 }
