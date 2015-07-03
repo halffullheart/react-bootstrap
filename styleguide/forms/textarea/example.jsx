@@ -1,6 +1,6 @@
 const textarea = (
   <form>
-    <Input type='textarea' label='Label' bsStyle='[[validation]] bsSize='[[size]]'[[readOnly]] />
+    <Input type='textarea' label='Label' [[inputAttrs]] />
   </form>
 );
 
