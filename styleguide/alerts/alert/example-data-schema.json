@@ -1,34 +1,53 @@
 {
-  "style": {
-    "label": "Alert level",
-    "type": "enum",
-    "options": [
+  "alertAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "Success",
-        "value": "success"
+        "type": "attribute",
+        "key": "bsStyle",
+        "value": {
+          "label": "Alert level",
+          "type": "select",
+          "values": [
+            {
+              "label": "Success",
+              "value": "success"
+            },
+            {
+              "label": "Info",
+              "value": "info"
+            },
+            {
+              "label": "Warning",
+              "value": "warning"
+            },
+            {
+              "label": "Danger",
+              "value": "danger"
+            }
+          ]
+        }
       },
       {
-        "label": "Info",
-        "value": "info"
+        "type": "attribute",
+        "key": "onDismiss",
+        "quote": "braces",
+        "value": {
+          "label": "Dismissable",
+          "type": "switch",
+          "on": "this.handleAlertDismiss"
+        }
       },
       {
-        "label": "Warning",
-        "value": "warning"
-      },
-      {
-        "label": "Danger",
-        "value": "danger"
+        "type": "attribute",
+        "key": "dismissAfter",
+        "quote": "braces",
+        "value": {
+          "label": "Automatically dismiss",
+          "type": "switch",
+          "on": "2000"
+        }
       }
     ]
-  },
-  "dismissable": {
-    "label": "Dismissable",
-    "type": "optional-string",
-    "value": " onDismiss={this.handleAlertDismiss}"
-  },
-  "automaticallyDismiss": {
-    "label": "Dismissable",
-    "type": "optional-string",
-    "value": " dismissAfter={2000}"
   }
 }
