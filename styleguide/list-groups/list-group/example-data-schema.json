@@ -1,12 +1,47 @@
 {
-  "context": {
-    "label": "Contextual item style",
-    "type": "enum",
-    "options": [
+  "itemAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "None",
-        "value": ""
+        "type": "attribute",
+        "key": "href",
+        "value": {
+          "label": "Linked Items",
+          "type": "switch",
+          "on": "#"
+        }
       },
+      {
+        "type": "attribute",
+        "key": "heading",
+        "value": {
+          "label": "Heading",
+          "type": "switch",
+          "on": "Heading"
+        }
+      }
+    ]
+  },
+  "states": {
+    "type": "group",
+    "values": [
+      {
+        "label": "Active",
+        "type": "switch",
+        "on": "active"
+      },
+      {
+        "label": "Disabled",
+        "type": "switch",
+        "on": "disabled"
+      }
+    ]
+  },
+  "style": {
+    "label": "Contextual Item Style",
+    "type": "select",
+    "optional": true,
+    "values": [
       {
         "label": "Success",
         "value": "success"
@@ -25,29 +60,9 @@
       }
     ]
   },
-  "linked": {
-    "label": "Linked items",
-    "type": "optional-string",
-    "value": " href='#'"
-  },
   "badge": {
     "label": "Badge",
     "type": "optional-string",
     "value": " <Badge>42</Badge>"
-  },
-  "active": {
-    "label": "Active",
-    "type": "optional-string",
-    "value": " active"
-  },
-  "disabled": {
-    "label": "Disabled",
-    "type": "optional-string",
-    "value": " disabled"
-  },
-  "heading": {
-    "label": "Heading",
-    "type": "optional-string",
-    "value": " heading='Heading'"
   }
 }
