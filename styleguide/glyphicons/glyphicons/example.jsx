@@ -1,5 +1,5 @@
 const glyph = (
-  <Glyphicon glyph='align-left' />
+  <Glyphicon glyph='[[icon]]' />
 );
 
 React.render(glyph, document.body);
