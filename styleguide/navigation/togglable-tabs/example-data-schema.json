@@ -1,7 +1,13 @@
 {
   "animate": {
-    "label": "Do not animate",
-    "type": "optional-string",
-    "value": " animation={false}"
+    "type": "attribute",
+    "key": "animation",
+    "quote": "braces",
+    "value": {
+      "label": "Animate",
+      "type": "switch",
+      "off": "false",
+      "default": "on"
+    }
   }
 }
