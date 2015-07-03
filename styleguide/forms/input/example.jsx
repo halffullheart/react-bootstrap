@@ -1,6 +1,6 @@
 const input = (
   <form>
-    <Input type='[[inputType]]' bsStyle='[[validation]]' label='Label' checked[[readOnly]][[hasFeedback]][[disabled]] />
+    <Input label='Label' [[inputAttrs]] />
   </form>
 );
 

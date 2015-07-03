@@ -1,76 +1,88 @@
 {
-  "validation": {
-    "label": "Validation",
-    "type": "enum",
-    "options": [
+  "inputAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "None",
-        "value": ""
+        "type": "attribute",
+        "key": "type",
+        "quote": "braces",
+        "value": {
+          "label": "Type",
+          "type": "select",
+          "values": [
+            "text",
+            "password",
+            "datetime",
+            "datetime-local",
+            "date",
+            "month",
+            "time",
+            "week",
+            "number",
+            "email",
+            "url",
+            "search",
+            "tel",
+            "color"
+          ]
+        }
       },
       {
-        "label": "Success",
-        "value": "success"
+        "type": "attribute",
+        "key": "bsSize",
+        "value": {
+          "label": "Size",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Large",
+              "value": "large"
+            },
+            {
+              "label": "Small",
+              "value": "small"
+            }
+          ]
+        }
       },
       {
-        "label": "Warning",
-        "value": "warning"
+        "type": "attribute",
+        "key": "bsStyle",
+        "value": {
+          "label": "Validation",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Success",
+              "value": "success"
+            },
+            {
+              "label": "Warning",
+              "value": "warning"
+            },
+            {
+              "label": "Error",
+              "value": "error"
+            }
+          ]
+        }
       },
       {
-        "label": "Error",
-        "value": "error"
-      }
-    ]
-  },
-  "inputType": {
-    "label": "Type",
-    "type": "enum",
-    "options": [
-      "text",
-      "password",
-      "datetime",
-      "datetime-local",
-      "date",
-      "month",
-      "time",
-      "week",
-      "number",
-      "email",
-      "url",
-      "search",
-      "tel",
-      "color"
-    ]
-  },
-  "readOnly": {
-    "label": "Read only",
-    "type": "optional-string",
-    "value": " readOnly"
-  },
-  "disabled": {
-    "label": "Disabled",
-    "type": "optional-string",
-    "value": " disabled"
-  },
-  "hasFeedback": {
-    "label": "Show icon in validation states",
-    "type": "optional-string",
-    "value": " hasFeedback"
-  },
-  "size": {
-    "label": "Size",
-    "type": "enum",
-    "options": [
-      {
-        "label": "Large",
-        "value": "large"
+        "label": "Read Only",
+        "type": "switch",
+        "on": "readOnly"
       },
       {
-        "label": "Default",
-        "value": ""
+        "label": "Disabled",
+        "type": "switch",
+        "on": "disabled"
       },
       {
-        "label": "Small",
-        "value": "small"
+        "label": "Show Icon in Validation State",
+        "type": "switch",
+        "on": "hasFeedback"
       }
     ]
   }
