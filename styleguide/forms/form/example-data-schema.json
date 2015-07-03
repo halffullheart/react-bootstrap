@@ -1,12 +1,11 @@
 {
-  "formClasses": {
-    "type": "css-class",
-    "optionalClasses": [
-      {
-        "label": "Inline",
-        "type": "optional-string",
-        "value": "form-inline"
-      }
-    ]
+  "formAttrs": {
+    "type": "attribute",
+    "key": "className",
+    "value": {
+      "label": "Inline",
+      "type": "switch",
+      "on": "inline"
+    }
   }
 }
