@@ -1,26 +1,35 @@
 {
-  "style": {
-    "label": "Tab style",
-    "type": "enum",
-    "options": [
+  "navAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "Tabs",
-        "value": "tabs"
+        "type": "attribute",
+        "key": "bsStyle",
+        "value": {
+          "label": "Tab Style",
+          "type": "select",
+          "values": [
+            {
+              "label": "Tabs",
+              "value": "tabs"
+            },
+            {
+              "label": "Pills",
+              "value": "pills"
+            }
+          ]
+        }
       },
       {
-        "label": "Pills",
-        "value": "pills"
+        "label": "Stacked",
+        "type": "switch",
+        "on": "stacked"
+      },
+      {
+        "label": "Justified",
+        "type": "switch",
+        "on": "justified"
       }
     ]
-  },
-  "stacked": {
-    "label": "Stacked",
-    "type": "optional-string",
-    "value": " stacked"
-  },
-  "justified": {
-    "label": "Justified",
-    "type": "optional-string",
-    "value": " justified"
   }
 }
