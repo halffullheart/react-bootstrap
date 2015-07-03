@@ -1,73 +1,80 @@
 {
-  "style": {
-    "label": "Style",
-    "type": "enum",
-    "options": [
+  "buttonAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "Default",
-        "value": ""
+        "type": "attribute",
+        "key": "bsStyle",
+        "value": {
+          "label": "Style",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Primary",
+              "value": "primary"
+            },
+            {
+              "label": "Success",
+              "value": "success"
+            },
+            {
+              "label": "Info",
+              "value": "info"
+            },
+            {
+              "label": "Warning",
+              "value": "warning"
+            },
+            {
+              "label": "Danger",
+              "value": "danger"
+            },
+            {
+              "label": "Link",
+              "value": "link"
+            }
+          ]
+        }
       },
       {
-        "label": "Primary",
-        "value": "primary"
+        "type": "attribute",
+        "key": "bsSize",
+        "value": {
+          "label": "Size",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Large",
+              "value": "large"
+            },
+            {
+              "label": "Small",
+              "value": "small"
+            },
+            {
+              "label": "Extra small",
+              "value": "xsmall"
+            }
+          ]
+        }
       },
       {
-        "label": "Success",
-        "value": "success"
+        "label": "Disabled",
+        "type": "switch",
+        "on": "disabled"
       },
       {
-        "label": "Info",
-        "value": "info"
+        "label": "Active",
+        "type": "switch",
+        "on": "active"
       },
       {
-        "label": "Warning",
-        "value": "warning"
-      },
-      {
-        "label": "Danger",
-        "value": "danger"
-      },
-      {
-        "label": "Link",
-        "value": "link"
+        "label": "Block level",
+        "type": "switch",
+        "on": "block"
       }
     ]
-  },
-  "size": {
-    "label": "Size",
-    "type": "enum",
-    "options": [
-      {
-        "label": "Large",
-        "value": "large"
-      },
-      {
-        "label": "Default",
-        "value": ""
-      },
-      {
-        "label": "Small",
-        "value": "small"
-      },
-      {
-        "label": "Extra small",
-        "value": "xsmall"
-      }
-    ]
-  },
-  "disabled": {
-    "label": "Disabled",
-    "type": "optional-string",
-    "value": " disabled"
-  },
-  "active": {
-    "label": "Active",
-    "type": "optional-string",
-    "value": " active"
-  },
-  "block": {
-    "label": "Block level",
-    "type": "optional-string",
-    "value": " block"
   }
 }
