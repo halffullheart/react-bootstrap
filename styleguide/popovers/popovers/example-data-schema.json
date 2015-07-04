@@ -21,27 +21,42 @@
       }
     ]
   },
-  "trigger": {
-    "label": "Trigger",
-    "type": "enum",
-    "options": [
+  "triggerAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "Click",
-        "value": "click"
+        "type": "attribute",
+        "key": "trigger",
+        "quote": "braces",
+        "value": {
+          "label": "Trigger",
+          "type": "select",
+          "values": [
+            {
+              "label": "Click",
+              "value": "click"
+            },
+            {
+              "label": "Hover",
+              "value": "hover"
+            },
+            {
+              "label": "Focus",
+              "value": "focus"
+            }
+          ]
+        }
       },
       {
-        "label": "Hover",
-        "value": "hover"
-      },
-      {
-        "label": "Focus",
-        "value": "focus"
+        "type": "attribute",
+        "key": "rootClose",
+        "quote": "braces",
+        "value": {
+          "label": "Root Close (Use with Click Trigger)",
+          "type": "switch",
+          "on": "true"
+        }
       }
     ]
-  },
-  "rootClose": {
-    "label": "Root close (use with click trigger)",
-    "type": "optional-string",
-    "value": " rootClose={true}"
   }
 }
