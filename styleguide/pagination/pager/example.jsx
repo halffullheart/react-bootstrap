@@ -1,7 +1,7 @@
 const pager = (
   <Pager[[align]]>
-    <PageItem[[disabled]][[alignPreviosLeft]] href='#'>[[previousText]]</PageItem>
-    <PageItem[[disabled]][[alignNextRight]] href='#'>[[nextText]]</PageItem>
+    <PageItem [[disabled]] [[alignPrevious]] href='#'>[[previousText]]</PageItem>
+    <PageItem [[disabled]] [[alignNext]] href='#'>[[nextText]]</PageItem>
   </Pager>
 );
 

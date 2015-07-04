@@ -1,45 +1,40 @@
- {
-  "previousText": {
-    "label": "Previous label",
-    "type": "enum",
-    "options": [
-      {
-        "label": "« Previous",
-        "value": ""
-      },
-      {
-        "label": "← Older",
-        "value": "← Older"
-      }
-    ]
-  },
-  "nextText": {
-    "label": "Next label",
-    "type": "enum",
-    "options": [
-      {
-        "label": "Next »",
-        "value": ""
-      },
-      {
-        "label": "Newer →",
-        "value": "Newer →"
-      }
-    ]
-  },
-  "alignPreviousLeft": {
-    "label": "Align previous button to left side of page",
-    "type": "optional-string",
-    "value": " previous"
-  },
-  "alignNextRight": {
-    "label": "Align next button to right side of page",
-    "type": "optional-string",
-    "value": " next"
-  },
+{
   "disabled": {
     "label": "Disabled",
-    "type": "optional-string",
-    "value": " disabled"
+    "type": "switch",
+    "on": "disabled"
+  },
+  "labels": {
+    "label": "Labels",
+    "type": "linked-select",
+    "values": [
+      {
+        "label": "« » Previous/Next",
+        "value": {
+          "previousText": "« Previous",
+          "nextText": "Next »"
+        }
+      },
+      {
+        "label": "← → Older/Newer",
+        "value": {
+          "previousText": "← Older",
+          "nextText": "Newer →"
+        }
+      }
+    ]
+  },
+  "align": {
+    "label": "Align to Sides of Page",
+    "type": "linked-select",
+    "optional": true,
+    "values": [
+      {
+        "values": {
+          "alignPrevious": "previous",
+          "alignNext": "next"
+        }
+      }
+    ]
   }
 }
