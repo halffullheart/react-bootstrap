@@ -1,8 +1,8 @@
 {
   "panelStyle": {
-    "label": "Contextual panel style",
-    "type": "enum",
-    "options": [
+    "label": "Contextual Panel Style",
+    "type": "select",
+    "values": [
       {
         "label": "Primary",
         "value": "primary"
