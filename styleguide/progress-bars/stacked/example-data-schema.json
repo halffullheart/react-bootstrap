@@ -1,108 +1,138 @@
 {
-  "bar1Style": {
-    "label": "Bar 1 Context",
-    "type": "enum",
-    "options": [
+  "bar1Attrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "None",
-        "value": ""
+        "type": "attribute",
+        "key": "bsStyle",
+        "value": {
+          "label": "Bar 1 Context",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Success",
+              "value": "success"
+            },
+            {
+              "label": "Info",
+              "value": "info"
+            },
+            {
+              "label": "Warning",
+              "value": "warning"
+            },
+            {
+              "label": "Danger",
+              "value": "danger"
+            }
+          ]
+        }
       },
       {
-        "label": "Success",
-        "value": "success"
+        "type": "attribute",
+        "key": "now",
+        "quote": "braces",
+        "value": {
+          "label": "Bar 1 %",
+          "type": "number",
+          "min": 0,
+          "max": 100,
+          "step": 1
+        }
       },
       {
-        "label": "Info",
-        "value": "info"
+        "type": "attribute",
+        "key": "label",
+        "value": {
+          "label": "Bar 1 Label",
+          "type": "switch",
+          "on": "%(percent)s%"
+        }
       },
       {
-        "label": "Warning",
-        "value": "warning"
+        "label": "Bar 1 Screen Reader Only Label",
+        "type": "switch",
+        "on": "srOnly"
       },
       {
-        "label": "Danger",
-        "value": "danger"
+        "label": "Bar 1 Striped",
+        "type": "switch",
+        "on": "striped"
+      },
+      {
+        "label": "Bar 1 Animated",
+        "type": "switch",
+        "on": "animated"
       }
     ]
   },
-  "bar2Style": {
-    "label": "Bar 2 Context",
-    "type": "enum",
-    "options": [
+  "bar2Attrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "None",
-        "value": ""
+        "type": "attribute",
+        "key": "bsStyle",
+        "value": {
+          "label": "Bar 2 Context",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Success",
+              "value": "success"
+            },
+            {
+              "label": "Info",
+              "value": "info"
+            },
+            {
+              "label": "Warning",
+              "value": "warning"
+            },
+            {
+              "label": "Danger",
+              "value": "danger"
+            }
+          ]
+        }
       },
       {
-        "label": "Success",
-        "value": "success"
+        "type": "attribute",
+        "key": "now",
+        "quote": "braces",
+        "value": {
+          "label": "Bar 2 %",
+          "type": "number",
+          "min": 0,
+          "max": 100,
+          "step": 1
+        }
       },
       {
-        "label": "Info",
-        "value": "info"
+        "type": "attribute",
+        "key": "label",
+        "value": {
+          "label": "Bar 2 Label",
+          "type": "switch",
+          "on": "%(percent)s%"
+        }
       },
       {
-        "label": "Warning",
-        "value": "warning"
+        "label": "Bar 2 Screen Reader Only Label",
+        "type": "switch",
+        "on": "srOnly"
       },
       {
-        "label": "Danger",
-        "value": "danger"
+        "label": "Bar 2 Striped",
+        "type": "switch",
+        "on": "striped"
+      },
+      {
+        "label": "Bar 2 Animated",
+        "type": "switch",
+        "on": "animated"
       }
     ]
-  },
-  "bar1Percent": {
-    "label": "Bar 1 %",
-    "type": "number",
-    "min": 0,
-    "max": 100,
-    "step": 1
-  },
-  "bar2Percent": {
-    "label": "Bar 2 %",
-    "type": "number",
-    "min": 0,
-    "max": 100,
-    "step": 1
-  },
-  "bar1Label": {
-    "label": "Bar 1 Label",
-    "type": "optional-string",
-    "value": " label='%(percent)s%'"
-  },
-  "bar2Label": {
-    "label": "Bar 2 Label",
-    "type": "optional-string",
-    "value": " label='%(percent)s%'"
-  },
-  "bar1SrOnly": {
-    "label": "Bar 1 Screen reader only label",
-    "type": "optional-string",
-    "value": " srOnly"
-  },
-  "bar2SrOnly": {
-    "label": "Bar 2 Screen reader only label",
-    "type": "optional-string",
-    "value": " srOnly"
-  },
-  "bar1Striped": {
-    "label": "Bar 1 Striped",
-    "type": "optional-string",
-    "value": " striped"
-  },
-  "bar2Striped": {
-    "label": "Bar 2 Striped",
-    "type": "optional-string",
-    "value": " striped"
-  },
-  "bar1Active": {
-    "label": "Bar 1 Animated",
-    "type": "optional-string",
-    "value": " active"
-  },
-  "bar2Active": {
-    "label": "Bar 2 Animated",
-    "type": "optional-string",
-    "value": " active"
   }
 }
