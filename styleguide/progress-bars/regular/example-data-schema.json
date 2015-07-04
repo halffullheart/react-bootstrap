@@ -1,55 +1,70 @@
 {
-  "style": {
-    "label": "Context",
-    "type": "enum",
-    "options": [
+  "barAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "None",
-        "value": ""
+        "type": "attribute",
+        "key": "bsStyle",
+        "value": {
+          "label": "Context",
+          "type": "select",
+          "optional": true,
+          "values": [
+            {
+              "label": "Success",
+              "value": "success"
+            },
+            {
+              "label": "Info",
+              "value": "info"
+            },
+            {
+              "label": "Warning",
+              "value": "warning"
+            },
+            {
+              "label": "Danger",
+              "value": "danger"
+            }
+          ]
+        }
       },
       {
-        "label": "Success",
-        "value": "success"
+        "type": "attribute",
+        "key": "now",
+        "quote": "braces",
+        "value": {
+          "label": "%",
+          "type": "number",
+          "min": 0,
+          "max": 100,
+          "step": 1
+        }
       },
       {
-        "label": "Info",
-        "value": "info"
+        "type": "attribute",
+        "key": "label",
+        "value": {
+          "label": "Label",
+          "type": "switch",
+          "on": "%(percent)s%"
+        }
       },
       {
-        "label": "Warning",
-        "value": "warning"
+        "label": "Screen Reader Only Label",
+        "type": "switch",
+        "on": "srOnly"
       },
       {
-        "label": "Danger",
-        "value": "danger"
+        "label": "Striped",
+        "type": "switch",
+        "on": "striped"
+      },
+      {
+        "label": "Animated",
+        "type": "switch",
+        "on": "animated"
       }
     ]
-  },
-  "percent": {
-    "label": "%",
-    "type": "number",
-    "min": 0,
-    "max": 100,
-    "step": 1
-  },
-  "label": {
-    "label": "Label",
-    "type": "optional-string",
-    "value": " label='%(percent)s%'"
-  },
-  "srOnly": {
-    "label": "Screen reader only label",
-    "type": "optional-string",
-    "value": " srOnly"
-  },
-  "striped": {
-    "label": "Striped",
-    "type": "optional-string",
-    "value": " striped"
-  },
-  "active": {
-    "label": "Animated",
-    "type": "optional-string",
-    "value": " active"
   }
 }
