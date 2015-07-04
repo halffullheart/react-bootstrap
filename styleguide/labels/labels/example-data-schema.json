@@ -1,8 +1,8 @@
 {
   "heading": {
     "label": "Heading Level",
-    "type": "enum",
-    "options": [
+    "type": "select",
+    "values": [
       {
         "label": "Heading 1",
         "value": "h1"

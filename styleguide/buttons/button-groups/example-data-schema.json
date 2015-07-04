@@ -2,27 +2,24 @@
   "groupAttrs": {
     "type": "attribute",
     "key": "bsSize",
-    "quote": "braces",
     "value": {
-      {
-        "label": "Size",
-        "type": "select",
-        "optional": true,
-        "values": [
-          {
-            "label": "Large",
-            "value": "large"
-          },
-          {
-            "label": "Small",
-            "value": "small"
-          },
-          {
-            "label": "Extra small",
-            "value": "xsmall"
-          }
-        ]
-      }
+      "label": "Size",
+      "type": "select",
+      "optional": true,
+      "values": [
+        {
+          "label": "Large",
+          "value": "large"
+        },
+        {
+          "label": "Small",
+          "value": "small"
+        },
+        {
+          "label": "Extra small",
+          "value": "xsmall"
+        }
+      ]
     }
   }
 }

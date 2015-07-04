@@ -5,7 +5,6 @@
       {
         "type": "attribute",
         "key": "type",
-        "quote": "braces",
         "value": {
           "label": "Type",
           "type": "select",

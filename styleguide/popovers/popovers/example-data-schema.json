@@ -1,8 +1,8 @@
 {
   "placement": {
     "label": "Placement",
-    "type": "enum",
-    "options": [
+    "type": "select",
+    "values": [
       {
         "label": "Left",
         "value": "left"
@@ -27,7 +27,6 @@
       {
         "type": "attribute",
         "key": "trigger",
-        "quote": "braces",
         "value": {
           "label": "Trigger",
           "type": "select",

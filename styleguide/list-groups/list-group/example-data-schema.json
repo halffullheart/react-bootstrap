@@ -62,7 +62,7 @@
   },
   "badge": {
     "label": "Badge",
-    "type": "optional-string",
-    "value": " <Badge>42</Badge>"
+    "type": "switch",
+    "on": "<Badge>42</Badge>"
   }
 }
