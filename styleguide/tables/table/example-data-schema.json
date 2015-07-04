@@ -1,58 +1,62 @@
 {
-  "striped": {
-    "label": "Striped",
-    "type": "optional-string",
-    "value": " striped"
-  },
-  "bordered": {
-    "label": "Bordered",
-    "type": "optional-string",
-    "value": " bordered"
-  },
-  "condensed": {
-    "label": "Condensed",
-    "type": "optional-string",
-    "value": " condensed"
-  },
-  "hover": {
-    "label": "Hover rows",
-    "type": "optional-string",
-    "value": " hover"
-  },
-  "responsive": {
-    "label": "Responsive",
-    "type": "optional-string",
-    "value": " responsive"
-  },
-  "contextClasses": {
-    "type": "css-class",
-    "optionalClasses": [
+  "tableAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "Context",
-        "type": "enum",
-        "options": [
-          {
-            "label": "Active",
-            "value": "active"
-          },
-          {
-            "label": "Success",
-            "value": "success"
-          },
-          {
-            "label": "Warning",
-            "value": "warning"
-          },
-          {
-            "label": "Danger",
-            "value": "danger"
-          },
-          {
-            "label": "Info",
-            "value": "info"
-          }
-        ]
+        "label": "Striped",
+        "type": "switch",
+        "on": "striped"
+      },
+      {
+        "label": "Bordered",
+        "type": "switch",
+        "on": "bordered"
+      },
+      {
+        "label": "Condensed",
+        "type": "switch",
+        "on": "condensed"
+      },
+      {
+        "label": "Hover Rows",
+        "type": "switch",
+        "on": "hover"
+      },
+      {
+        "label": "Responsive",
+        "type": "switch",
+        "on": "responsive"
       }
     ]
+  },
+  "contextClasses": {
+    "type": "attribute",
+    "key": "className",
+    "value": {
+      "label": "Context",
+      "type": "select",
+      "values": [
+        {
+          "label": "Active",
+          "value": "active"
+        },
+        {
+          "label": "Success",
+          "value": "success"
+        },
+        {
+          "label": "Warning",
+          "value": "warning"
+        },
+        {
+          "label": "Danger",
+          "value": "danger"
+        },
+        {
+          "label": "Info",
+          "value": "info"
+        }
+      ]
+    }
   }
 }

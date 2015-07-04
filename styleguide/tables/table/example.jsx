@@ -1,5 +1,5 @@
 const table = (
-  <Table[[striped]][[bordered]][[condensed]][[hover]][[responsive]]>
+  <Table [[tableAttrs]]>
     <tr>
       <th>#</th>
       <th>Fruit</th>
@@ -10,7 +10,7 @@ const table = (
       <th>Lemon</th>
       <th>Yellow</th>
     </tr>
-    <tr[[{contextClasses]]}>
+    <tr [[contextClasses]]>
       <td>2</td>
       <th>Orange</th>
       <th>Orange</th>
@@ -22,7 +22,7 @@ const table = (
     </tr>
     <tr>
       <td>4</td>
-      <th[[{contextClasses]]}>Plum</th>
+      <th [[contextClasses]]>Plum</th>
       <th>Purple</th>
     </tr>
   </Table>
