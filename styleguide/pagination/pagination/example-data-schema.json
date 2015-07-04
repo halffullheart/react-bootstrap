@@ -1,59 +1,106 @@
 {
-  "size": {
-    "label": "Size",
-    "type": "enum",
-    "options": [
+  "paginationAttrs": {
+    "type": "group",
+    "values": [
       {
-        "label": "Large",
-        "value": "large"
+        "type": "attribute",
+        "key": "bsSize",
+        "quote": "braces",
+        "value": {
+          "label": "Size",
+          "type": "select",
+          "values": [
+            {
+              "label": "Large",
+              "value": "large"
+            },
+            {
+              "label": "Default",
+              "value": "medium"
+            },
+            {
+              "label": "Small",
+              "value": "small"
+            }
+          ]
+        }
       },
       {
-        "label": "Default",
-        "value": "medium"
+        "type": "attribute",
+        "key": "prev",
+        "quote": "braces",
+        "value": {
+          "label": "Show Previous Button",
+          "type": "switch",
+          "on": "true"
+        }
       },
       {
-        "label": "Small",
-        "value": "small"
+        "type": "attribute",
+        "key": "next",
+        "quote": "braces",
+        "value": {
+          "label": "Show Next Button",
+          "type": "switch",
+          "on": "true"
+        }
+      },
+      {
+        "type": "attribute",
+        "key": "first",
+        "quote": "braces",
+        "value": {
+          "label": "Show First Button",
+          "type": "switch",
+          "on": "true"
+        }
+      },
+      {
+        "type": "attribute",
+        "key": "last",
+        "quote": "braces",
+        "value": {
+          "label": "Show Last Button",
+          "type": "switch",
+          "on": "true"
+        }
+      },
+      {
+        "type": "attribute",
+        "key": "ellipsis",
+        "quote": "braces",
+        "value": {
+          "label": "Show Ellipsis",
+          "type": "switch",
+          "off": "false",
+          "default": "on"
+        }
+      },
+      {
+        "type": "attribute",
+        "key": "items",
+        "quote": "braces",
+        "value": {
+          "label": "Total Pages",
+          "type": "number",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 5
+        }
+      },
+      {
+        "type": "attribute",
+        "key": "maxButtons",
+        "quote": "braces",
+        "value": {
+          "label": "Maximum Pages Shown",
+          "type": "number",
+          "min": 5,
+          "max": 30,
+          "step": 5 
+        }
       }
     ]
-  },
-  "previous": {
-    "label": "Show previous button",
-    "type": "optional-string",
-    "value": " prev={true}"
-  },
-  "next": {
-    "label": "Show next button",
-    "type": "optional-string",
-    "value": " next={true}"
-  },
-  "first": {
-    "label": "Show first button",
-    "type": "optional-string",
-    "value": " first={true}"
-  },
-  "last": {
-    "label": "Show first button",
-    "type": "optional-string",
-    "value": " last={true}"
-  },
-  "ellipsis": {
-    "label": "Show ellipsis",
-    "type": "optional-string",
-    "value": " ellipsis={true}"
-  },
-  "totalItems": {
-    "label": "Total items",
-    "type": "number",
-    "min": 10,
-    "max": 100,
-    "step": 10
-  },
-  "maxButtons": {
-    "label": "Maximum pages shown",
-    "type": "number",
-    "min": 5,
-    "max": 30,
-    "step": 5 
   }
 }

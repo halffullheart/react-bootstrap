@@ -13,6 +13,6 @@ const PaginationExample = React.createClass({
 
   render() {
     return (
-      <Pagination[[previous]][[next]][[first]][[last]][[ellipsis]][[totalItems]][[maxButtons]] bsSize='[[size]]' items={10} activePage={this.state.activePage} onSelect={this.handleSelect} />
+      <Pagination [[paginationAttrs]] activePage={this.state.activePage} onSelect={this.handleSelect} />
 
 React.render(<PaginationExample />, document.body);
