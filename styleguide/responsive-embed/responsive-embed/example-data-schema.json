@@ -1,0 +1,16 @@
+{
+  "aspectRatio": {
+    "label": "Aspect ratio",
+    "type": "select",
+    "values": [
+      {
+        "label": "16:9",
+        "value": "16by9"
+      },
+      {
+        "label": "4:3",
+        "value": "4by3"
+      }
+    ]
+  }
+}

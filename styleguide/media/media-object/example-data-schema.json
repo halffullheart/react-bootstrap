@@ -1,0 +1,24 @@
+{
+  "mediaObjectClasses": {
+    "type": "attribute",
+    "key": "class",
+    "value": {
+      "label": "Vertical alignment of media",
+      "type": "select",
+      "values": [
+        {
+          "label": "Top",
+          "value": ""
+        },
+        {
+          "label": "Middle",
+          "value": "media-middle"
+        },
+        {
+          "label": "Bottom",
+          "value": "media-bottom"
+        }
+      ]
+    }
+  }
+}
