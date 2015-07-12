@@ -1,4 +1,4 @@
-const AlertDismissable = React.createClass({
+const AlertExample = React.createClass({
   getInitialState() {
     return {
       alertVisible: true
