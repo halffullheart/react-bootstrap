@@ -1,4 +1,4 @@
-const AlertExample = React.createClass({
+var AlertExample = React.createClass({
   getInitialState() {
     return {
       alertVisible: true
