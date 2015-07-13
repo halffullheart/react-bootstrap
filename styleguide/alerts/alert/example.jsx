@@ -1,3 +1,4 @@
+var Alert = ReactBootstrap.Alert;
 var AlertExample = React.createClass({
   getInitialState() {
     return {
