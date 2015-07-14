@@ -1,3 +1,5 @@
+var Table = ReactBootstrap.Table;
+
 const table = (
   <Table [[tableAttrs]]>
     <tr>

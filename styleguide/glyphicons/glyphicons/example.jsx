@@ -1,3 +1,5 @@
+var Glyphicon = ReactBootstrap.Glyphicon;
+
 const glyph = (
   <Glyphicon glyph='[[icon]]' />
 );

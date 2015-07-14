@@ -1,3 +1,6 @@
+var Carousel = ReactBootstrap.Carousel,
+    CarouselItem = ReactBootstrap.CarouselItem;
+
 const carousel = (
   <Carousel>
     <CarouselItem>

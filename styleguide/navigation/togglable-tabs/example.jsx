@@ -1,3 +1,6 @@
+var TabbedArea = ReactBootstrap.TabbedArea,
+    TabPane = ReactBootstrap.TabPane;
+
 const tabbedArea = (
   <TabbedArea defaultActiveKey={2} [[animate]]>
     <TabPane eventKey={1} tab='Tab 1'>TabPane 1 content</TabPane>

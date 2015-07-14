@@ -1,3 +1,5 @@
+var ProgressBar = ReactBootstrap.ProgressBar;
+
 const stackedProgressBar = (
   <ProgressBar>
     <ProgressBar [[bar1Attrs]] key={1} />

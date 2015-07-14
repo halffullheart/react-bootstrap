@@ -1,3 +1,7 @@
+var Grid = ReactBootstrap.Grid,
+    Row = ReactBootstrap.Row,
+    Thumbnail = ReactBootstrap.Thumbnail;
+
 const thumbnails = (
   <Grid>
     <Row>

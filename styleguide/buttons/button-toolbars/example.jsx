@@ -1,3 +1,7 @@
+var ButtonToolbar = ReactBootstrap.ButtonToolbar,
+    ButtonGroup = ReactBootstrap.ButtonGroup,
+    Button = ReactBootstrap.Button;
+
 const buttonToolbar = (
   <ButtonToolbar>
     <ButtonGroup>

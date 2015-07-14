@@ -1,3 +1,5 @@
+var Modal = ReactBootstrap.Modal;
+
 const staticModal = (
   <Modal title='Modal title'
     backdrop={false}

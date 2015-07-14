@@ -1,3 +1,4 @@
+var Input = ReactBootstrap.Input;
 const radios = (
   <form>
     <Input type='radio' name='exampleRadios' id='exampleRadio1' value='option1' [[inputAttrs]] label='Your front wheels must be turned toward the street.' />

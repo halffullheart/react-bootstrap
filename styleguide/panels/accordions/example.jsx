@@ -1,3 +1,6 @@
+var Accordion = ReactBootstrap.Accordion,
+    Panel = ReactBootstrap.Panel;
+
 const accordion = (
   <Accordion>
     <Panel header='Collapsible Group Item #1' eventKey='1'>

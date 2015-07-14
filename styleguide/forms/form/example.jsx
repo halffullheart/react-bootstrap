@@ -1,3 +1,6 @@
+var Input = ReactBootstrap.Input,
+    Button = ReactBootstrap.Button;
+
 const form = (
   <form [[formAttrs]]>
     <Input id='exampleFormInputName' type='text' label='Name' placeholder='Jane Doe' />

@@ -1,3 +1,5 @@
+var Input = ReactBootstrap.Input;
+
 const textarea = (
   <form>
     <Input type='textarea' label='Label' [[inputAttrs]] />

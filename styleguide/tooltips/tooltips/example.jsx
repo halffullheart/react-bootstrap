@@ -1,3 +1,7 @@
+var ButtonToolbar = ReactBootstrap.ButtonToolbar,
+    OverlayTrigger = ReactBootstrap.OverlayTrigger,
+    Button = ReactBootstrap.Button;
+
 const tooltips = (
   <ButtonToolbar>
     <OverlayTrigger placement='[[placement]]' overlay={<Tooltip>Tooltip on the [[placement]]</Tooltip>}>

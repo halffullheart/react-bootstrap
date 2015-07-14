@@ -1,3 +1,5 @@
+var Tooltip = ReactBootstrap.Tooltip;
+
 const tooltip = (
   <div style={{ height: 50 }}>
     <Tooltip placement="[[placement]]" positionLeft={150} positionTop={50}>

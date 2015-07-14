@@ -1,3 +1,5 @@
+var Badge = ReactBootstrap.Badge;
+
 const badges = (
   <div>
     <p>

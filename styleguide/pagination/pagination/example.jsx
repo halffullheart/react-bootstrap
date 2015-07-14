@@ -1,3 +1,5 @@
+var Pagination = ReactBootstrap.Pagination;
+
 const PaginationExample = React.createClass({
   getInitialState() {
     return {
@@ -13,6 +15,9 @@ const PaginationExample = React.createClass({
 
   render() {
     return (
-      <Pagination [[paginationAttrs]] activePage={this.state.activePage} onSelect={this.handleSelect} />
+        <Pagination [[paginationAttrs]] activePage={this.state.activePage} onSelect={this.handleSelect}/>
+    )
+  }
+});
 
 React.render(<PaginationExample />, document.body);

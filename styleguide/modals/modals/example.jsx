@@ -1,3 +1,7 @@
+var Modal = ReactBootstrap.Modal,
+    ModalTrigger = ReactBootstrap.ModalTrigger,
+    Button = ReactBootstrap.Button;
+
 const MyModal = React.createClass({
   render() {
     return (

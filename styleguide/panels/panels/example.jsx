@@ -1,3 +1,8 @@
+var Panel = ReactBootstrap.Panel,
+    Table = ReactBootstrap.Table,
+    ListGroup = ReactBootstrap.ListGroup,
+    ListGroupItem = ReactBootstrap.ListGroupItem;
+
 const title = (
   <h3>Panel title</h3>
 );

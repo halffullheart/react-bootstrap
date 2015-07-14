@@ -1,3 +1,7 @@
+var Nav = ReactBootstrap.Nav,
+    NavItem = ReactBootstrap.NavItem,
+    DropdownButton = ReactBootstrap.DropdownButton;
+
 var ExampleNav = React.createClass({
   getInitialState: function() {
     return {

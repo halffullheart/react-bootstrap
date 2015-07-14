@@ -1,4 +1,6 @@
-var Alert = ReactBootstrap.Alert;
+var Alert = ReactBootstrap.Alert,
+    Button = ReactBootstrap.Button;
+
 var AlertExample = React.createClass({
   getInitialState() {
     return {

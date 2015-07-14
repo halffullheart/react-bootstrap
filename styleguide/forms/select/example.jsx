@@ -1,3 +1,5 @@
+var Input = ReactBootstrap.Input;
+
 const select = (
   <form>
     <Input type='select' label='Choose a color' [[inputAttrs]]>

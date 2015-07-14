@@ -1,3 +1,5 @@
+var Jumbotron = ReactBootstrap.Jumbotron;
+
 const jumbotron = (
   <Jumbotron>
     <h1>Hello, world!</h1>

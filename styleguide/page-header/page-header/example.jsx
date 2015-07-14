@@ -1,3 +1,5 @@
+var PageHeader = ReactBootstrap.PageHeader;
+
 const pageHeader = (
   <PageHeader>Example page header <small>Subtext for header</small></PageHeader>
 );

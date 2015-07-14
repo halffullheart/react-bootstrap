@@ -1,3 +1,4 @@
+var Input = ReactBootstrap.Input;
 const input = (
   <form>
     <Input label='Label' [[inputAttrs]] />

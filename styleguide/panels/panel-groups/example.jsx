@@ -1,3 +1,6 @@
+var PanelGroup = ReactBootstrap.PanelGroup,
+    Panel = ReactBootstrap.Panel;
+
 const panelGroup = (
   <PanelGroup defaultActiveKey='2' accordion>
     <Panel header='Panel 1' eventKey='1'>Panel 1 content</Panel>

@@ -1,3 +1,6 @@
+var SplitButton = ReactBootstrap.SplitButton,
+    MenuItem = ReactBootstrap.MenuItem;
+
 const button = (
   <SplitButton [[buttonAttrs]]>
     <MenuItem eventKey='1'>Action</MenuItem>

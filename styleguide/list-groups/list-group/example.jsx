@@ -1,3 +1,6 @@
+var ListGroup = ReactBootstrap.ListGroup,
+    ListGroupItem = ReactBootstrap.ListGroupItem;
+
 const listgroup = (
   <ListGroup>
     <ListGroupItem [[itemAttrs]]>Cras justo odio [[badge]]</ListGroupItem>
