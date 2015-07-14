@@ -1,4 +1,7 @@
-var Badge = ReactBootstrap.Badge;
+var Badge = ReactBootstrap.Badge,
+    Button = ReactBootstrap.Button,
+    Nav = ReactBootstrap.Nav,
+    NavItem = ReactBootstrap.NavItem;
 
 const badges = (
   <div>
