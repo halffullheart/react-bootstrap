@@ -1,7 +1,7 @@
 var DropdownButton = ReactBootstrap.DropdownButton,
     MenuItem = ReactBootstrap.MenuItem;
 
-const button = (
+var button = (
   <DropdownButton [[buttonAttrs]]>
     <MenuItem eventKey='1'>Action</MenuItem>
     <MenuItem eventKey='2'>Another action</MenuItem>

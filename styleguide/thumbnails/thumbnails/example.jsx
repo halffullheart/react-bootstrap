@@ -3,7 +3,7 @@ var Grid = ReactBootstrap.Grid,
     Col = ReactBootstrap.Col,
     Thumbnail = ReactBootstrap.Thumbnail;
 
-const thumbnail = (
+var thumbnail = (
 <Grid>
   <Row>
   <Col xs={6} md={3}>

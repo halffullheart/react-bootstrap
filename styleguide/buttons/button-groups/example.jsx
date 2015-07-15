@@ -1,7 +1,7 @@
 var ButtonGroup = ReactBootstrap.ButtonGroup,
     Button = ReactBootstrap.Button;
 
-const buttonGroup = (
+var buttonGroup = (
   <ButtonGroup [[groupAttrs]]>
     <Button>Left</Button>
     <Button>Middle</Button>

@@ -3,7 +3,7 @@ var Navbar = ReactBootstrap.Navbar,
     NavItem = ReactBootstrap.NavItem,
     DropdownButton = ReactBootstrap.DropdownButton;
 
-const navbar = (
+var navbar = (
   <Navbar brand=[[brand]] [[navbarAttrs]]>
     <Nav [[rightLinks]]>
       <NavItem eventKey={1} href='#'>Link</NavItem>

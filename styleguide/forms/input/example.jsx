@@ -1,5 +1,5 @@
 var Input = ReactBootstrap.Input;
-const input = (
+var input = (
   <form>
     <Input label='Label' [[inputAttrs]] />
   </form>

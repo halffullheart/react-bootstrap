@@ -2,7 +2,7 @@ var Grid = ReactBootstrap.Grid,
     Row = ReactBootstrap.Row,
     Thumbnail = ReactBootstrap.Thumbnail;
 
-const thumbnails = (
+var thumbnails = (
   <Grid>
     <Row>
     <Col xs={6} md={4}>

@@ -1,6 +1,6 @@
 var ProgressBar = ReactBootstrap.ProgressBar;
 
-const progressBar = (
+var progressBar = (
   <ProgressBar [[barAttrs]] />
 );
 

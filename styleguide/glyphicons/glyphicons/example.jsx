@@ -1,6 +1,6 @@
 var Glyphicon = ReactBootstrap.Glyphicon;
 
-const glyph = (
+var glyph = (
   <Glyphicon glyph='[[icon]]' />
 );
 

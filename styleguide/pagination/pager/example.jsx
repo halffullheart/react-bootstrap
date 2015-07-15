@@ -1,7 +1,7 @@
 var Pager = ReactBootstrap.Pager,
     PageItem = ReactBootstrap.PageItem;
 
-const pager = (
+var pager = (
   <Pager[[align]]>
     <PageItem [[disabled]] [[alignPrevious]] href='#'>[[previousText]]</PageItem>
     <PageItem [[disabled]] [[alignNext]] href='#'>[[nextText]]</PageItem>

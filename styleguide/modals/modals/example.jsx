@@ -2,7 +2,7 @@ var Modal = ReactBootstrap.Modal,
     ModalTrigger = ReactBootstrap.ModalTrigger,
     Button = ReactBootstrap.Button;
 
-const MyModal = React.createClass({
+var MyModal = React.createClass({
   render() {
     return (
       <Modal {...this.props} title='Modal heading' [[modalAttrs]]>
@@ -28,7 +28,7 @@ const MyModal = React.createClass({
   }
 });
 
-const overlayTriggerInstance = (
+var overlayTriggerInstance = (
   <ModalTrigger modal={<MyModal />}>
     <Button>Open Modal</Button>
   </ModalTrigger>

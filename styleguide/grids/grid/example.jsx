@@ -2,7 +2,7 @@ var Grid = ReactBootstrap.Grid,
     Row = ReactBootstrap.Row,
     Col = ReactBootstrap.Col;
 
-const grid = (
+var grid = (
   <Grid>
     <Row className='show-grid'>
       <Col xs={12} md={8}><code>&lt;{'Col xs={12} md={8}'} /&gt;</code></Col>

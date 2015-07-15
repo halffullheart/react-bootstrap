@@ -1,6 +1,6 @@
 var Input = ReactBootstrap.Input;
 
-const checkbox = (
+var checkbox = (
   <form>
     <Input type='checkbox' [[inputAttrs]] label='Cream' checked />
     <Input type='checkbox' [[inputAttrs]] label='Sugar' />

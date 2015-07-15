@@ -1,6 +1,6 @@
 var Well = ReactBootstrap.Well;
 
-const well = (
+var well = (
   <div>
     <Well [[wellAttrs]]>Look I’m in a large well!</Well>
   </div>

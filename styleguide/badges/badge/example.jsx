@@ -3,7 +3,7 @@ var Badge = ReactBootstrap.Badge,
     Nav = ReactBootstrap.Nav,
     NavItem = ReactBootstrap.NavItem;
 
-const badges = (
+var badges = (
   <div>
     <p>
       <a href='#'>Messages <Badge>[[badgeContent]]</Badge></a>

@@ -1,6 +1,6 @@
 var Input = ReactBootstrap.Input;
 
-const select = (
+var select = (
   <form>
     <Input type='select' label='Choose a color' [[inputAttrs]]>
       <option>Red</option>

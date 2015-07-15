@@ -1,6 +1,6 @@
 var Table = ReactBootstrap.Table;
 
-const table = (
+var table = (
   <Table [[tableAttrs]]>
     <tr>
       <th>#</th>

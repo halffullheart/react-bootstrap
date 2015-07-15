@@ -3,11 +3,11 @@ var Panel = ReactBootstrap.Panel,
     ListGroup = ReactBootstrap.ListGroup,
     ListGroupItem = ReactBootstrap.ListGroupItem;
 
-const title = (
+var title = (
   <h3>Panel title</h3>
 );
 
-const panels = (
+var panels = (
   <div>
 
 

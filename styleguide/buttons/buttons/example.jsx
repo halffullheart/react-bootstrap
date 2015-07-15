@@ -1,6 +1,6 @@
 var Button = ReactBootstrap.Button;
 
-const button = (
+var button = (
   <Button [[buttonAttrs]]>Button</Button>
 );
 

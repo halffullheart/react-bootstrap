@@ -1,6 +1,6 @@
 var Input = ReactBootstrap.Input;
 
-const textarea = (
+var textarea = (
   <form>
     <Input type='textarea' label='Label' [[inputAttrs]] />
   </form>

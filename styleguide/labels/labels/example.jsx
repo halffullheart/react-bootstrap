@@ -1,5 +1,5 @@
 var Label = ReactBootstrap.Label;
-const headingWithLabel = (
+var headingWithLabel = (
   <[[heading]]>Example [[heading]] <Label [[labelStyle]]>New</Label></[[heading]]>
 );
 

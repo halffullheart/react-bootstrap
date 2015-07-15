@@ -1,6 +1,6 @@
 var Pagination = ReactBootstrap.Pagination;
 
-const PaginationExample = React.createClass({
+var PaginationExample = React.createClass({
   getInitialState() {
     return {
       activePage: 1
