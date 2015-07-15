@@ -1,4 +1,5 @@
-var Jumbotron = ReactBootstrap.Jumbotron;
+var Jumbotron = ReactBootstrap.Jumbotron,
+    Button = ReactBootstrap.Button;
 
 var jumbotron = (
   <Jumbotron>

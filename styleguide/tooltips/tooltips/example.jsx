@@ -1,5 +1,6 @@
 var ButtonToolbar = ReactBootstrap.ButtonToolbar,
     OverlayTrigger = ReactBootstrap.OverlayTrigger,
+    Tooltip = ReactBootstrap.Tooltip,
     Button = ReactBootstrap.Button;
 
 var tooltips = (

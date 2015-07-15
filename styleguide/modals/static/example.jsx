@@ -1,4 +1,5 @@
-var Modal = ReactBootstrap.Modal;
+var Modal = ReactBootstrap.Modal,
+    Button = ReactBootstrap.Button;
 
 var staticModal = (
   <Modal title='Modal title'

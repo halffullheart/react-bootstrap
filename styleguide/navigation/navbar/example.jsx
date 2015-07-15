@@ -1,7 +1,8 @@
 var Navbar = ReactBootstrap.Navbar,
     Nav = ReactBootstrap.Nav,
     NavItem = ReactBootstrap.NavItem,
-    DropdownButton = ReactBootstrap.DropdownButton;
+    DropdownButton = ReactBootstrap.DropdownButton,
+    MenuItem = ReactBootstrap.MenuItem;
 
 var navbar = (
   <Navbar brand=[[brand]] [[navbarAttrs]]>

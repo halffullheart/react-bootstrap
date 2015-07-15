@@ -1,4 +1,5 @@
-var Button = ReactBootstrap.Button;
+var Button = ReactBootstrap.Button,
+    CollapsibleMixin = ReactBootstrap.CollapsibleMixin;
 
 var CollapsibleParagraph = React.createClass({
   mixins: [CollapsibleMixin],
