@@ -1,3 +1,4 @@
 {
-  "delimiters": ["[[", "]]"]
+  "delimiters": ["[[", "]]"],
+  "order": ["jquery-2.1.4.min.js", "react.js", "bootstrap.min.js", "bootstrap-react.js"]
 }
